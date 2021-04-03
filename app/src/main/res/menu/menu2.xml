@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/allCategories"
+        android:icon="@drawable/ic_border_all"
+        android:title="All Categories"/>
+    <item
+        android:id="@+id/offerZone"
+        android:icon="@drawable/ic_local_offer"
+        android:title="Offer Zone"/>
+    <group android:id="@+id/group_menu">
+    <item
+        android:id="@+id/myOrder"
+        android:icon="@drawable/ic_myorder"
+        android:title="My Orders"/>
+    <item
+        android:id="@+id/myCoupons"
+        android:icon="@drawable/ic_coupons"
+        android:title="MyCoupons"/>
+    <item
+        android:id="@+id/myCart"
+        android:icon="@drawable/ic_cart"
+        android:title="My Cart"/>
+    <item
+        android:id="@+id/myWishList"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="My Wishlist"/>
+    <item
+        android:id="@+id/myAccount"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="My Account"/>
+    <item
+        android:id="@+id/myNotification"
+        android:icon="@drawable/ic_my_notifications"
+        android:title="My Notifications"/>
+    <item
+        android:id="@+id/myChat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="My Chats"/>
+    </group>
+    <group android:id="@+id/group_menu2">
+    <item
+        android:id="@+id/item10"
+        android:icon="@color/black"
+        android:title="Notification Preferences"/>
+    <item
+        android:id="@+id/item11"
+        android:icon="@color/black"
+        android:title="Help Centre"/>
+    <item
+        android:id="@+id/item12"
+        android:icon="@color/black"
+        android:title="Privacy Policy"/>
+    <item
+        android:id="@+id/item14"
+        android:icon="@color/black"
+        android:title="Legal"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out"/>
+    </group>
+
+</menu>
